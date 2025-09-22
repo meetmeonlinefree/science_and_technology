@@ -1,6 +1,30 @@
 [
-  {"image":"https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png", "sort":4},
-  {"image":"https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png", "sort":2},
-  {"image":"https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png", "sort":3},
-  {"image":"https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png", "sort":1}
+  {
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
+    "sort": 4,
+    "text": "Логотип 1",
+    "description": "Описание первого логотипа",
+    "website_url": "https://example.com/1"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
+    "sort": 2,
+    "text": "Логотип 2",
+    "description": "Описание второго логотипа",
+    "website_url": "https://example.com/2"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
+    "sort": 3,
+    "text": "Логотип 3",
+    "description": "Описание третьего логотипа",
+    "website_url": "https://example.com/3"
+  },
+  {
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png",
+    "sort": 1,
+    "text": "Логотип 4",
+    "description": "Описание четвёртого логотипа",
+    "website_url": "https://example.com/4"
+  }
 ]
