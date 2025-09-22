@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Дар бораи мо",
+    "description": "Маълумот дар бораи маҷалла ва аҳамияти он барои ҷавонон.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/logo_about_us.png"
+  },
+  {
+    "title": "Бойгонӣ",
+    "description": "Архиви шумораи гузашта.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/archive.png"
+  },
+  {
+    "title": "Эко-Life",
+    "description": "Мавзӯъҳои экологӣ ва ҳаёти солим.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/eco.png"
+  },
+  {
+    "title": "Озмунҳо ва эълонҳо",
+    "description": "Мушаххасоти озмунҳо ва эълонҳои муҳими нав.",
+    "image": "https://raw.githubusercontent.com/username/repo/main/competition.png"
+  }
+]
