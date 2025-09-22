@@ -11,7 +11,7 @@
     "sort": 2,
     "text": "Логотип 2",
     "description": "Описание второго логотипа",
-    "website_url": "https://example.com/2"
+    "website_url": ""
   },
   {
     "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
@@ -25,6 +25,6 @@
     "sort": 1,
     "text": "Логотип 4",
     "description": "Описание четвёртого логотипа",
-    "website_url": "https://example.com/4"
+    "website_url": ""
   }
 ]
