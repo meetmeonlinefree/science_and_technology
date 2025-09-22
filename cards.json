@@ -2,21 +2,21 @@
   {
     "title": "Дар бораи мо",
     "description": "Маълумот дар бораи маҷалла ва аҳамияти он барои ҷавонон.",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo.png"
+    "icon": "📘"
   },
   {
     "title": "Бойгонӣ",
     "description": "Архиви шумораи гузашта.",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo.png"
+    "icon": "🗂️"
   },
   {
     "title": "Эко-Life",
     "description": "Мавзӯъҳои экологӣ ва ҳаёти солим.",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo.png"
+    "icon": "🌱"
   },
   {
     "title": "Озмунҳо ва эълонҳо",
     "description": "Мушаххасоти озмунҳо ва эълонҳои муҳими нав.",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo.png"
+    "icon": "🏆"
   }
 ]
