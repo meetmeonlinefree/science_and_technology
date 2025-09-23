@@ -5,14 +5,14 @@
       "title": "ИЛМ ВА ТЕХНИКА 2025 №1",
       "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
       "datetime": "2025-01-01T10:00:00",
-      "url": "https://nekruzsadriddinzoda.vercel.app/journal1.html"
+      "url": "https://nekruzsadriddinzoda.vercel.app/"
     },
     {
       "id": 102,
       "title": "ИЛМ ВА ТЕХНИКА 2025 №2",
       "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
       "datetime": "2025-02-01T10:00:00",
-      "url": "https://nekruzsadriddinzoda.vercel.app/journal1.html"
+      "url": "https://nekruzsadriddinzoda.vercel.app/"
     }
   ],
   "2": [
@@ -21,7 +21,7 @@
       "title": "ИЛМ ВА ТЕХНИКА 2024 №1",
       "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
       "datetime": "2024-01-01T10:00:00",
-      "url": "https://nekruzsadriddinzoda.vercel.app/journal1.html"
+      "url": "https://nekruzsadriddinzoda.vercel.app/"
     }
   ]
 }
