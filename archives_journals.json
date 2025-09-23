@@ -3,16 +3,16 @@
     {
       "id": 101,
       "title": "ИЛМ ВА ТЕХНИКА 2025 №1",
-      "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
-      "datetime": "2025-01-01T10:00:00",
-      "url": "https://dovtalab2025.vercel.app/test.pdf"
+      "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo4.png",
+      "datetime": "23.09.2025 16:56:01",
+      "url": "https://dovtalab2025.vercel.app/2025_1.pdf"
     },
     {
       "id": 102,
       "title": "ИЛМ ВА ТЕХНИКА 2025 №2",
-      "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
-      "datetime": "2025-02-01T10:00:00",
-      "url": "https://dovtalab2025.vercel.app/test.pdf"
+      "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
+      "datetime": "23.09.2025 16:57:01",
+      "url": "https://dovtalab2025.vercel.app/2025_2.pdf"
     }
   ],
   "2": [
@@ -20,8 +20,8 @@
       "id": 201,
       "title": "ИЛМ ВА ТЕХНИКА 2024 №1",
       "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
-      "datetime": "2024-01-01T10:00:00",
-      "url": "https://dovtalab2025.vercel.app/test.pdf"
+      "datetime": "23.09.2025 16:58:01",
+      "url": "https://dovtalab2025.vercel.app/2025_3.pdf"
     }
   ]
 }
