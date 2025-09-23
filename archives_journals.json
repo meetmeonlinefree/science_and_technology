@@ -1,0 +1,24 @@
+{
+  "1": [
+    {
+      "id": 101,
+      "title": "Журнал ИЛМ ВА ТЕХНИКА №1",
+      "image": "https://raw.githubusercontent.com/.../journal1.png",
+      "datetime": "2025-01-01T10:00:00"
+    },
+    {
+      "id": 102,
+      "title": "Журнал ИЛМ ВА ТЕХНИКА №2",
+      "image": "https://raw.githubusercontent.com/.../journal2.png",
+      "datetime": "2025-02-01T10:00:00"
+    }
+  ],
+  "2": [
+    {
+      "id": 201,
+      "title": "Журнал ИЛМ ВА ТЕХНИКА №1",
+      "image": "https://raw.githubusercontent.com/.../journal1_2024.png",
+      "datetime": "2024-01-01T10:00:00"
+    }
+  ]
+}
