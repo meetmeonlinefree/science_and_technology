@@ -1,1 +1,103 @@
-123
+<!doctype html>
+<html lang="tg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Дар бораи мо — Илм ва техника</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary: #3DDC84; /* Android green */
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #0f172a;
+      --radius: 14px;
+    }
+    html,body{height:100%;margin:0;font-family:Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--accent);}
+    .app{max-width:900px;margin:18px auto;padding:16px;}
+
+    /* Top app bar */
+    .topbar{display:flex;align-items:center;gap:12px;padding:12px 14px;background:linear-gradient(90deg,var(--primary),#1fc76b);border-radius:12px;color:#fff;box-shadow:0 6px 18px rgba(16,24,40,0.08);}
+    .icon{width:44px;height:44px;border-radius:10px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .title{font-size:18px;font-weight:600}
+    .subtitle{font-size:12px;opacity:0.95}
+
+    /* Card */
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;margin-top:14px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    h1{margin:0 0 10px 0;font-size:20px}
+    h2{margin:18px 0 8px 0;font-size:16px}
+    p{margin:8px 0;line-height:1.55;color:#0b1220}
+    ul{margin:8px 0 16px 18px}
+    li{margin:6px 0}
+
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .feature{background:linear-gradient(180deg,rgba(3,105,64,0.03),rgba(3,105,64,0.01));padding:12px;border-radius:12px;border:1px solid rgba(3,105,64,0.05)}
+    .feature h3{margin:0;font-size:14px}
+    .muted{color:var(--muted);font-size:13px}
+
+    .actions{display:flex;gap:10px;margin-top:16px}
+    .btn{padding:10px 12px;border-radius:10px;border:none;font-weight:500;cursor:pointer}
+    .btn-primary{background:var(--primary);color:#032012}
+    .btn-ghost{background:transparent;border:1px solid rgba(3,105,64,0.12);color:var(--accent)}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* small screens tweak */
+    @media (max-width:420px){.app{padding:10px;margin:8px}.topbar{padding:10px}.icon{width:40px;height:40px}}
+  </style>
+</head>
+<body>
+  <div class="app" role="main">
+    <div class="topbar" role="banner">
+      <div class="icon" aria-hidden>ИТ</div>
+      <div>
+        <div class="title">Маҷаллаи “Илм ва техника”</div>
+        <div class="subtitle">Дар бораи мо — О нас</div>
+      </div>
+    </div>
+
+    <section class="card" aria-labelledby="about-title">
+      <h1 id="about-title">ХОНАНДАГОНИ АЗИЗИ МАҶАЛЛАИ “ИЛМ ВА ТЕХНИКА” — СИПОС, КИ БО МО ҲАСТЕД!</h1>
+
+      <p>Аввалин вазифаи мо аз он иборат аст, ки барои ҳамаи наврасону ҷавонон, донишҳои мувофиқро бо забонҳое, ки онҳо мехоҳанд, пешкаш намоем. Аз ин рӯ, мо маҷалларо он гуна таҳия кардаем, ки ба синну соли гуногун нигаронида шуда, ба ҳама фанҳои соҳаи риёзиву табиатшиносӣ ҷавобгӯ мебошад.</p>
+
+      <div class="features">
+        <div class="feature">
+          <h3>32 саҳифа — маводи ҷолиб</h3>
+          <p class="muted">Рубрикаҳои илмӣ барои наврасон, ҷавонон ва волидайни онҳо.</p>
+        </div>
+        <div class="feature">
+          <h3>Маводҳои бодиққат интихобшуда</h3>
+          <p class="muted">Танҳо маълумоти тасдиқшуда ва боэътимод.</p>
+        </div>
+        <div class="feature">
+          <h3>Табиат, инсон ва техника</h3>
+          <p class="muted">Сахифаҳо бо маводҳои ҷолиб ва расмҳои дурахшон.</p>
+        </div>
+        <div class="feature">
+          <h3>Равоншиносӣ ва пул</h3>
+          <p class="muted">Саҳифаҳои равоншиносии наврасон, кӯдакон ва маслиҳатҳо.</p>
+        </div>
+      </div>
+
+      <h2>Чӣ меёбанд дар маҷалла?</h2>
+      <ul>
+        <li>Илмҳои дақиқ бо забонҳои англисӣ ва русӣ ва расмҳои дурахшон;</li>
+        <li>Ребусҳо, муаммоҳо ва масъалаҳо барои санҷиши дониш;</li>
+        <li>Саёҳат ба олами илм бо персонажҳои мо: Роботҳои Илм ва Техника;</li>
+        <li>Таҷрибаҳои кимиёвӣ ва физикӣ, ки дар хона ва муҳити атроф гузаронида мешаванд бо персонажҳои “Кимиё ва Закариё”;</li>
+        <li>Маҷалла ҷаҳонбинии шуморо васеъ мекунад ва ба шумо дар интихоби касб ёрӣ мерасонад.</li>
+      </ul>
+
+      <div class="actions">
+        <button class="btn btn-primary" onclick="window.scrollTo({top:document.body.scrollHeight, behavior:'smooth'})">Муфассалтар</button>
+        <button class="btn btn-ghost" onclick="alert('Ташаккур барои таваҷҷуҳ!')">Бо мо тамос</button>
+      </div>
+
+      <footer>Муаллиф ва таҳиякунанда: Маҷаллаи «Илм ва техника» — Ҳама ҳуқуқҳо ҳифз шудаанд.</footer>
+    </section>
+  </div>
+</body>
+</html>
