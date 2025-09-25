@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco-Life</title>
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #FFA500;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .container {
+        padding: 16px;
+    }
+    .card {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        margin-bottom: 16px;
+        padding: 16px;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-4px);
+    }
+    .card h3 {
+        margin: 0;
+        font-size: 1.2em;
+    }
+    .card p {
+        margin: 8px 0 0 0;
+        color: #555;
+        font-size: 0.9em;
+    }
+    /* Модальное окно */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.6);
+        justify-content: center;
+        align-items: center;
+    }
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 12px;
+        max-width: 500px;
+        width: 90%;
+        text-align: center;
+        position: relative;
+    }
+    .modal img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+    .close {
+        position: absolute;
+        right: 16px;
+        top: 8px;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<header>Eco-Life: Мақолаҳо ва мусоҳибаҳо</header>
+<div class="container">
+
+    <div class="card" onclick="openModal(0)">
+        <h3>Климат меняется - меняемся и мы!</h3>
+        <p>05.04.2025 | Муаллиф: Фарзона Норбадалова</p>
+    </div>
+
+    <div class="card" onclick="openModal(1)">
+        <h3>ЧӢ ХӮРДАН ҶОИЗ АСТ, ТО ҶАҲОНРО НАҶОТ ДИҲЕМ?</h3>
+        <p>21.04.2025 | Муаллиф: Фарзона Норбадалова</p>
+    </div>
+
+    <div class="card" onclick="openModal(2)">
+        <h3>2025 год - международный год сохранения ледников</h3>
+        <p>19.05.2025 | Эргашева Нодира Васидовна</p>
+    </div>
+
+    <div class="card" onclick="openModal(3)">
+        <h3>Что произойдёт, если на земле исчезнет вода на 3 дня?</h3>
+        <p>27.04.2025 | Рухшона Бокиева</p>
+    </div>
+
+</div>
+
+<!-- Модальное окно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="Экология">
+        <p id="modalText"></p>
+    </div>
+</div>
+
+<script>
+const articles = [
+    {
+        image: "https://example.com/image1.jpg",
+        text: "Ҳар қатраи об як қиссаи пуртаҳаввулро дар худ ниҳон дорад. Аз абрҳои муаллақ то чашмаҳои соф, аз рӯдҳои шӯх то баҳрҳо ва уқёнусҳои беканор, об дар гардиши доимии худ ҳаётро эҳё мекунад. Аммо имрӯз, бо тағйирёбии иқлим ва афзоиши эҳтиёҷоти башар ба захираҳои обӣ, ин гардиш бо таҳдидҳои ҷиддӣ рӯ ба рӯ гашта истодааст."
+    },
+    {
+        image: "https://example.com/image2.jpg",
+        text: "Замин дар даҳсолаҳои охир бо тағйироти бесобиқа дучор омадааст. Афзоиши ҳарорати ҳаво боиси обшавии босуръати пиряхҳо, коҳиши манбаъҳои оби ширин ва афзоиши хушксолӣ шудааст. Пиряхҳои осмонбӯси Помир ва Тян-Шон, ки ҳамчун манбаи асосии оби Осиёи Марказӣ шинохта мешаванд, сол ба сол коҳиш меёбанд."
+    },
+    {
+        image: "https://example.com/image3.jpg",
+        text: "Ин раванд на танҳо экосистемаҳоро ба хатар рӯ ба рӯ мекунад, балки зиндагии миллионҳо одамонро зери хатар мегузорад."
+    },
+    {
+        image: "https://example.com/image4.jpg",
+        text: "Ҳар қатраи об як қиссаи пуртаҳаввулро дар худ ниҳон дорад. Аз абрҳои муаллақ то чашмаҳои соф, аз рӯдҳои шӯх то баҳрҳо ва уқёнусҳои беканор, об дар гардиши доимии худ ҳаётро эҳё мекунад. Аммо имрӯз, бо тағйирёбии иқлим ва афзоиши эҳтиёҷоти башар ба захираҳои обӣ, ин гардиш бо таҳдидҳои ҷиддӣ рӯ ба рӯ гашта истодааст."
+    }
+];
+
+function openModal(index) {
+    document.getElementById("modalImage").src = articles[index].image;
+    document.getElementById("modalText").innerText = articles[index].text;
+    document.getElementById("modal").style.display = "flex";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+</script>
+
+</body>
+</html>
