@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Озмун — Илм ва техника</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f4f6f8;
+      --card:#ffffff;
+      --primary:#2196F3;
+      --accent:#FFC107;
+      --muted:#6b7280;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Roboto,system-ui,-apple-system,'Segoe UI',Arial;background:var(--bg);color:#0b1220}
+    .wrap{max-width:920px;margin:18px auto;padding:16px}
+    .top{display:flex;align-items:center;gap:12px;padding:12px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:12px;color:#fff}
+    .logo{width:52px;height:52px;border-radius:12px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .head{font-size:18px;font-weight:700}
+    .sub{font-size:13px;opacity:0.95}
+
+    .card{background:var(--card);padding:16px;border-radius:12px;margin-top:14px;box-shadow:0 8px 24px rgba(16,24,40,0.06)}
+    h1{margin:0 0 8px 0;font-size:20px}
+    p{margin:8px 0;line-height:1.55}
+    ul{margin:8px 0 16px 18px}
+    li{margin:6px 0}
+
+    .cta{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:600}
+    .btn-primary{background:var(--primary);color:#fff}
+    .btn-ghost{background:transparent;border:1px solid rgba(14,39,75,0.06);color:var(--muted)}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:420px){.top{padding:10px}.wrap{padding:10px}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header class="top">
+      <div class="logo" aria-hidden>ИТ</div>
+      <div>
+        <div class="head">Озмунҳо ва эълонҳо</div>
+        <div class="sub">Эълон: Озмуни расм дар мавзӯи «Ояндаи сабз»</div>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="exam-title">
+      <h1 id="exam-title">❗ ЭЪЛОН! — Озмуни расми беҳтарин: «ОЯНДАИ САБЗ»</h1>
+
+      <p>Маҷаллаи «Илм ва техника» барои хонандагони синфҳои 5–11 озмуни расмкаширо роҷеъ ба иқлим ва экология эълон мекунад!</p>
+
+      <p>Агар мехоҳӣ бо қалами худ тасвири як ҷаҳони тозаву сабзро нишон диҳӣ, пас ҳоло фурсати он расидааст!</p>
+
+      <h2>Шартҳои иштирок</h2>
+      <ul>
+        <li>Расми худро дар мавзӯи «Ояндаи сабз» кашида, онро аккосӣ ё скан карда ба почтаи <a href="mailto:ilmvatekhnika@mail.ru">ilmvatekhnika@mail.ru</a> фиристед.</li>
+        <li>Дар паёми худ маълумотҳои зеринро ҳамроҳ намоед: ном ва насаб, синф, мактаб ва маҳалли зист.</li>
+        <li>Расмҳо то <strong>25 августи соли 2025</strong> тариқи почта қабул карда мешаванд.</li>
+        <li>То <strong>1-уми сентябри соли 2025</strong>, ҳамаи расмҳо дар саҳифаҳои иҷтимоии маҷалла барои овоздиҳӣ нашр карда мешаванд.</li>
+        <li>Ғолибон аз рӯи овози хонандагон ва интихоби ҳакамон муайян гарданд.</li>
+      </ul>
+
+      <p><strong>ҒОЛИБОНРО тӯҳфаҳои хотиравӣ ва нашри расмашон дар маҷалла интизор аст!</strong></p>
+
+      <p style="margin-top:6px"><em>Ояндаи сабз — бо дастони ту офарида мешавад!</em></p>
+
+      <div class="cta">
+        <a class="btn btn-primary" href="mailto:ilmvatekhnika@mail.ru">Фиристодан ба почта</a>
+        <button class="btn btn-ghost" onclick="window.print()">Чоп кардан</button>
+      </div>
+
+      <footer>Бо Маҷаллаи "Илм ва техника" бимонед!</footer>
+    </section>
+  </div>
+</body>
+</html>
