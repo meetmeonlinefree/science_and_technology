@@ -67,7 +67,7 @@
       </ul>
 
       <div class="cta">
-        <button class="btn btn-primary" onclick="copyEmail()">📋 Скопировать почту</button>
+        <button id="copyBtn" class="btn btn-primary" onclick="copyEmail()">📋 Скопировать почту</button>
       </div>
 
       <p><strong>ҒОЛИБОНРО тӯҳфаҳои хотиравӣ ва нашри расмашон дар маҷалла интизор аст!</strong></p>
@@ -82,9 +82,11 @@
     function copyEmail() {
       const email = "ilmvatekhnika@mail.ru";
       navigator.clipboard.writeText(email).then(() => {
-        alert("📋 Почта скопирована: " + email);
+        const btn = document.getElementById("copyBtn");
+        btn.textContent = "📋 Скопировано";
       }).catch(() => {
-        alert("Ошибка: не удалось скопировать");
+        const btn = document.getElementById("copyBtn");
+        btn.textContent = "Ошибка!";
       });
     }
   </script>
