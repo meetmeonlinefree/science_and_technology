@@ -1,0 +1,14 @@
+[
+    {
+        "id": "nav_about",
+        "title": "Дар бораи мо"
+    },
+    {
+        "id": "nav_contact", 
+        "title": "Тамос"
+    },
+    {
+        "id": "nav_subscribe",
+        "title": "Обуна шудан"
+    }
+]
