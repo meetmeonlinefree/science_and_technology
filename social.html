@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="tg">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Мо дар сомонаҳои иҷтимоӣ — Илм ва техника</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --primary:#2196F3;
+      --accent:#FFC107; /* тёмно-жёлтый / amber */
+      --muted:#6b7280;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Roboto,system-ui,-apple-system,'Segoe UI',Arial;background:var(--bg);color:#0b1220}
+    .wrap{max-width:920px;margin:18px auto;padding:16px}
+    .top{display:flex;align-items:center;gap:12px;padding:12px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:12px;color:#fff}
+    .logo{width:52px;height:52px;border-radius:12px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .head{font-size:18px;font-weight:700}
+    .sub{font-size:13px;opacity:0.95}
+
+    .card{background:var(--card);padding:16px;border-radius:12px;margin-top:14px;box-shadow:0 8px 24px rgba(16,24,40,0.06)}
+    .list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .item{display:flex;align-items:center;gap:12px;padding:12px;border-radius:10px;border:1px solid rgba(14,39,75,0.04)}
+    .item .ico{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,rgba(33,150,243,0.08),rgba(255,193,7,0.04))}
+    .item a{display:block;text-decoration:none;color:inherit}
+    .name{font-weight:600}
+    .meta{font-size:13px;color:var(--muted)}
+
+    .contacts{margin-top:14px;display:flex;flex-direction:column;gap:8px}
+    .contact{display:flex;align-items:center;gap:10px;padding:10px;border-radius:10px;background:linear-gradient(90deg,rgba(3,105,64,0.02),rgba(3,105,64,0.01));border:1px solid rgba(3,105,64,0.03)}
+    .small{font-size:13px;color:var(--muted)}
+
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:600}
+    .btn-primary{background:var(--primary);color:#fff}
+    .btn-ghost{background:transparent;border:1px solid rgba(3,105,64,0.08)}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:420px){.top{padding:10px}.wrap{padding:10px}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <header class="top">
+      <div class="logo" aria-hidden>ИТ</div>
+      <div>
+        <div class="head">Мо дар сомонаҳои иҷтимоӣ</div>
+        <div class="sub">Паёмҳо, хабарҳо ва ҳамкорӣ — пайравӣ кунед</div>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="social-title">
+      <h2 id="social-title">Профилҳо ва канали расмӣ</h2>
+
+      <div class="list" role="list">
+        <div class="item" role="listitem">
+          <div class="ico" aria-hidden>
+            <!-- Facebook SVG -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+              <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5.02 3.66 9.19 8.44 9.93v-7.03H8.1v-2.9h2.34V9.41c0-2.31 1.37-3.59 3.47-3.59. 98 0 1.78.07 2.02.1v2.34h-1.38c-1.08 0-1.29.51-1.29 1.26v1.66h2.58l-.41 2.9h-2.17V22c4.78-.74 8.44-4.91 8.44-9.93z" fill="#1877F2"/>
+            </svg>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=100095342014130" target="_blank" rel="noopener noreferrer">
+              <div class="name">Facebook</div>
+              <div class="meta">Профил: Илм ва техника</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ico" aria-hidden>
+            <!-- Instagram -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#F58529" />
+                <stop offset="0.5" stop-color="#DD2A7B" />
+                <stop offset="1" stop-color="#8134AF" />
+              </linearGradient>
+              <rect x="2" y="2" width="20" height="20" rx="5" stroke="url(#g1)" stroke-width="1.5" />
+            </svg>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/ilm.tekhnika/" target="_blank" rel="noopener noreferrer">
+              <div class="name">Instagram</div>
+              <div class="meta">@ilm.tekhnika</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ico" aria-hidden>
+            <!-- Telegram -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 4L2 10.5L8.5 13L11 20L13 13L22 4Z" fill="#0088cc"/>
+            </svg>
+          </div>
+          <div>
+            <a href="https://t.me/ilmvatekhnika" target="_blank" rel="noopener noreferrer">
+              <div class="name">Telegram</div>
+              <div class="meta">@ilmvatekhnika</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="ico" aria-hidden>
+            <!-- WhatsApp -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.52 3.48C18.15 1.11 15.03 0 11.7 0 5.6 0 .43 5.17.43 11.27c0 1.99.52 3.94 1.5 5.66L0 24l7.3-2.02c1.66.9 3.54 1.37 5.41 1.37 6.1 0 11.27-5.17 11.27-11.27 0-3.33-1.11-6.45-3.46-8.69z" fill="#25D366"/>
+            </svg>
+          </div>
+          <div>
+            <a href="https://api.whatsapp.com/send/?phone=992921007155&text=%D0%A1%D0%B0%D0%BB%D0%BE%D0%BC%21+%D0%9C%D0%B0%D0%BD+%D0%BE%D0%B1%D1%83%D0%BD%D0%B0+%D1%88%D1%83%D0%B4%D0%B0%D0%BD+%D0%BC%D0%B5%D1%85%D0%BE%D2%B3%D0%B0%D0%BC.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+              <div class="name">WhatsApp</div>
+              <div class="meta">+992 92 100 7155</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <div class="contact">
+          <div style="font-weight:700">✉️</div>
+          <div>
+            <div class="name">Электронная почта</div>
+            <div class="small"><a href="mailto:ilmvatekhnika@mail.ru">ilmvatekhnika@mail.ru</a></div>
+          </div>
+        </div>
+
+        <div class="contact">
+          <div style="font-weight:700">📞</div>
+          <div>
+            <div class="name">Телефон</div>
+            <div class="small"><a href="tel:+992921007155">+992 92 100 7155</a></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+        <a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=100095342014130" target="_blank" rel="noopener noreferrer">Перейти в Facebook</a>
+        <a class="btn" style="background:#E1306C;color:#fff;border-radius:10px;padding:10px 12px;text-decoration:none;font-weight:600" href="https://www.instagram.com/ilm.tekhnika/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="btn" style="background:#0088cc;color:#fff;border-radius:10px;padding:10px 12px;text-decoration:none;font-weight:600" href="https://t.me/ilmvatekhnika" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a class="btn" style="background:#25D366;color:#032012;border-radius:10px;padding:10px 12px;text-decoration:none;font-weight:600" href="https://api.whatsapp.com/send/?phone=992921007155&text=%D0%A1%D0%B0%D0%BB%D0%BE%D0%BC%21+%D0%9C%D0%B0%D0%BD+%D0%BE%D0%B1%D1%83%D0%BD%D0%B0+%D1%88%D1%83%D0%B4%D0%B0%D0%BD+%D0%BC%D0%B5%D1%85%D0%BE%D2%B3%D0%B0%D0%BC.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a>
+      </div>
+
+      <footer>© Маҷаллаи «Илм ва техника» — ҳамаи ҳуқуқҳо ҳифз шудаанд.</footer>
+    </section>
+  </div>
+</body>
+</html>
