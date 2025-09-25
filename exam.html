@@ -66,10 +66,6 @@
         <li>Ғолибон аз рӯи овози хонандагон ва интихоби ҳакамон муайян гарданд.</li>
       </ul>
 
-      <div class="cta">
-        <button id="copyBtn" class="btn btn-primary" onclick="copyEmail()">📋 Скопировать почту</button>
-      </div>
-
       <p><strong>ҒОЛИБОНРО тӯҳфаҳои хотиравӣ ва нашри расмашон дар маҷалла интизор аст!</strong></p>
 
       <p style="margin-top:6px"><em>Ояндаи сабз — бо дастони ту офарида мешавад!</em></p>
@@ -78,17 +74,5 @@
     </section>
   </div>
 
-  <script>
-    function copyEmail() {
-      const email = "ilmvatekhnika@mail.ru";
-      navigator.clipboard.writeText(email).then(() => {
-        const btn = document.getElementById("copyBtn");
-        btn.textContent = "📋 Скопировано";
-      }).catch(() => {
-        const btn = document.getElementById("copyBtn");
-        btn.textContent = "Ошибка!";
-      });
-    }
-  </script>
 </body>
 </html>
