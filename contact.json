@@ -16,28 +16,28 @@
   {
     "title": "WhatsApp",
     "value": "https://api.whatsapp.com/send/?phone=992921007155&text=Салом!+Ман+обуна+шудан+мехоҳам.",
-    "type": "link",
+    "type": "whatsapp",
     "status": 1
 
   },
   {
     "title": "Telegram",
     "value": "https://t.me/ilmvatekhnika",
-    "type": "link",
+    "type": "telegram",
     "status": 1
 
   },
   {
     "title": "Facebook",
     "value": "https://www.facebook.com/profile.php?id=100095342014130",
-    "type": "link",
+    "type": "facebook",
     "status": 1
 
   },
   {
     "title": "Instagram",
     "value": "https://www.instagram.com/ilm.tekhnika/",
-    "type": "link",
+    "type": "instagram",
     "status": 1
 
   }
