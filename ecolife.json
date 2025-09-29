@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Экологический проект 1",
+    "description": "Подробное описание экологического проекта...",
+    "image": "https://example.com/image1.jpg",
+    "author": "Иван Иванов",
+    "datetime": "2024-01-15",
+    "images": [
+      "https://example.com/image1_1.jpg",
+      "https://example.com/image1_2.jpg",
+      "https://example.com/image1_3.jpg"
+    ],
+    "status": 1
+  },
+  {
+    "id": 2,
+    "title": "Экологический проект 2",
+    "description": "Подробное описание второго проекта...",
+    "image": "https://example.com/image2.jpg",
+    "author": "Петр Петров",
+    "datetime": "2024-01-16",
+    "images": [
+      "https://example.com/image2_1.jpg",
+      "https://example.com/image2_2.jpg"
+    ],
+    "status": 1
+  }
+]
