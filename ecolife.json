@@ -3,13 +3,13 @@
     "id": 1,
     "title": "Экологический проект 1",
     "description": "Подробное описание экологического проекта...",
-    "image": "https://example.com/image1.jpg",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
     "author": "Иван Иванов",
     "datetime": "2024-01-15",
     "images": [
-      "https://example.com/image1_1.jpg",
-      "https://example.com/image1_2.jpg",
-      "https://example.com/image1_3.jpg"
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png"
     ],
     "status": 1
   },
@@ -17,12 +17,12 @@
     "id": 2,
     "title": "Экологический проект 2",
     "description": "Подробное описание второго проекта...",
-    "image": "https://example.com/image2.jpg",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
     "author": "Петр Петров",
     "datetime": "2024-01-16",
     "images": [
-      "https://example.com/image2_1.jpg",
-      "https://example.com/image2_2.jpg"
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png",
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png"
     ],
     "status": 1
   }
