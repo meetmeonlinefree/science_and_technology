@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Телефон",
+    "value": "+992921007155",
+    "type": "phone"
+  },
+  {
+    "title": "Почта",
+    "value": "ilmvatekhnika@mail.ru",
+    "type": "email"
+  },
+  {
+    "title": "WhatsApp",
+    "value": "https://api.whatsapp.com/send/?phone=992921007155&text=Салом!+Ман+обуна+шудан+мехоҳам.",
+    "type": "link"
+  },
+  {
+    "title": "Telegram",
+    "value": "https://t.me/ilmvatekhnika",
+    "type": "link"
+  },
+  {
+    "title": "Facebook",
+    "value": "https://www.facebook.com/profile.php?id=100095342014130",
+    "type": "link"
+  },
+  {
+    "title": "Instagram",
+    "value": "https://www.instagram.com/ilm.tekhnika/",
+    "type": "link"
+  }
+]
