@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Озмуни илмӣ оид ба экология",
+    "description": "<p>Озмуни илмӣ барои донишҷӯён оид ба масъалаҳои экология ва ҳифзи муҳит.</p><p>Максади озмун: ғайратманд кардани ҷавонон ба ҳалли мушкилоти экологӣ.</p>",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo1.png",
+    "author": "Фарзона Норбадалова",
+    "datetime": "2024-01-20",
+    "images": [
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo1.png",
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo2.png"
+    ],
+    "status": 1
+  },
+  {
+    "id": 2,
+    "title": "Эълон оид ба семинари илмӣ",
+    "description": "<p>Семинари байналмилалӣ оид ба технологияҳои нави энергетикӣ.</p><p>Ҳамаи ҳаваскорон даъват мешаванд.</p>",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo.png",
+    "author": "Алишер Қодиров",
+    "datetime": "2024-01-25",
+    "images": [
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/logo3.png"
+    ],
+    "status": 1
+  }
+]
