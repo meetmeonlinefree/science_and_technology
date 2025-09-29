@@ -1,0 +1,30 @@
+[
+  {
+    "title": "WhatsApp",
+    "value": "https://api.whatsapp.com/send/?phone=992921007155&text=Салом!+Ман+обуна+шудан+мехоҳам.",
+    "type": "whatsapp",
+    "status": 1
+
+  },
+  {
+    "title": "Telegram",
+    "value": "https://t.me/ilmvatekhnika",
+    "type": "telegram",
+    "status": 1
+
+  },
+  {
+    "title": "Facebook",
+    "value": "https://www.facebook.com/profile.php?id=100095342014130",
+    "type": "facebook",
+    "status": 1
+
+  },
+  {
+    "title": "Instagram",
+    "value": "https://www.instagram.com/ilm.tekhnika/",
+    "type": "instagram",
+    "status": 1
+
+  }
+]
