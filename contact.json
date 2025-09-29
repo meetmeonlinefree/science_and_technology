@@ -24,7 +24,7 @@
     "title": "Telegram",
     "value": "https://t.me/ilmvatekhnika",
     "type": "link",
-    "status": 0
+    "status": 1
 
   },
   {
@@ -38,7 +38,7 @@
     "title": "Instagram",
     "value": "https://www.instagram.com/ilm.tekhnika/",
     "type": "link",
-    "status": 0
+    "status": 1
 
   }
 ]
