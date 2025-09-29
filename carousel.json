@@ -26,5 +26,12 @@
     "text": "Логотип 4",
     "description": "Описание четвёртого логотипа",
     "website_url": ""
+  },
+  {
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo.png",
+    "sort": 5,
+    "text": "Логотип 5",
+    "description": "Описание четвёртого логотипа",
+    "website_url": ""
   }
 ]
