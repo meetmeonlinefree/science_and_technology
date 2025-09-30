@@ -4,7 +4,7 @@
     "title": "Важное обновление приложения",
     "description": "Дорогие пользователи!<br><br>Мы выпустили важное обновление приложения с исправлением ошибок и улучшением производительности.<br><br>Рекомендуем обновить приложение через Google Play Store.",
     "datetime": "2024-12-25 16:45:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/notif1.jpg",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
     "status": "active"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Технические работы",
     "description": "Уведомляем о проведении технических работ <b>28 декабря с 02:00 до 04:00</b>.<br><br>В это время приложение может быть временно недоступно. Приносим извинения за возможные неудобства.",
     "datetime": "2024-12-24 11:20:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/notif2.jpg",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
     "status": "active"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Новая функция: Избранное",
     "description": "Мы добавили новую функцию - <i>«Избранное»</i>!<br><br>Теперь вы можете сохранять понравившиеся статьи и материалы для быстрого доступа позже.",
     "datetime": "2024-12-22 14:00:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/notif3.jpg",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
     "status": "active"
   }
 ]
