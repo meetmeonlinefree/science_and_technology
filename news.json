@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Наш журнал получил награду!",
+    "description": "Мы рады сообщить, что наш журнал <b>«Илм ва техника»</b> получил премию <i>«Лучшее научное издание для молодежи 2024»</i>.<br><br>Это большая честь для нашей команды и признание наших усилий в популяризации науки среди молодежи Таджикистана.",
+    "datetime": "2024-12-20 14:30:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/news1.jpg",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "title": "Новый выпуск журнала доступен",
+    "description": "Вышел новый выпуск нашего журнала с интересными материалами:<br>• Новые открытия в физике<br>• Эксперименты по химии<br>• Математические головоломки<br>• Интересные факты о природе",
+    "datetime": "2024-12-15 10:00:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/news2.jpg",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "title": "Конкурс молодых ученых",
+    "description": "Объявляем конкурс научных проектов среди школьников и студентов!<br><br>Призы:<br>• 1 место: 5000 сомони<br>• 2 место: 3000 сомони<br>• 3 место: 2000 сомони<br><br>Срок подачи заявок до 15 января 2025 года.",
+    "datetime": "2024-12-10 09:15:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/images/news3.jpg",
+    "status": "active"
+  }
+]
