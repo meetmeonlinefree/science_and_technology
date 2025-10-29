@@ -4,6 +4,10 @@
         "title": "ℹ️ Дар бораи барнома"
     },
     {
+        "id": "action_share",
+        "title": "📤 Поделиться"
+    },
+    {
         "id": "nav_contact", 
         "title": "📞 Тамос"
     },
