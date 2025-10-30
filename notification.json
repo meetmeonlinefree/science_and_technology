@@ -2,17 +2,17 @@
   {
     "id": 1,
     "title": "Важное обновление приложения",
-    "description": "Дорогие пользователи!<br><br>Мы выпустили важное обновление приложения с исправлением ошибок и улучшением производительности.<br><br>Рекомендуем обновить приложение через Google Play Store.",
-    "datetime": "2024-12-25 16:45:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
+    "description": "Барномаи навро аз Google Play боргири кунед",
+    "datetime": "30.10.2025 09:21:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
     "status": "active"
   },
   {
     "id": 2,
-    "title": "Технические работы",
-    "description": "Уведомляем о проведении технических работ <b>28 декабря с 02:00 до 04:00</b>.<br><br>В это время приложение может быть временно недоступно. Приносим извинения за возможные неудобства.",
-    "datetime": "2024-12-24 11:20:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
+    "title": "Барномаи Шохнома",
+    "description": "Барномаи навро аз Google Play боргири кунед. <br> Скачайте в Google Play<br> Download on Google Play",
+    "datetime": "30.10.2025 09:21:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png",
     "status": "active"
   },
   {
