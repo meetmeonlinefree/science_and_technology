@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Важное обновление приложения",
+    "title": "6 -уми ноябр Конститутсияи Ҷумҳурии Тоҷикистон",
+    "description": "Рӯзи Сарқонуни Ҷумҳурии Тоҷикистон муборак бошад!",
+    "datetime": "06.11.2025 08:21:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/constitution.jpg",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "title": "Озмуни расми беҳтарин дар мавзуи «ОЯНДАИ САБЗ»",
+    "description": "Озмуни расми беҳтарин дар мавзуи «ОЯНДАИ САБЗ» - ро дар бахши Озмунхо ва эълонхо хонед",
+    "datetime": "30.10.2025 09:21:00",
+    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/news_green_future.jpg",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "title": "Важное обновление приложения Довталаб 2025",
     "description": "Барномаи навро аз Google Play боргири кунед",
     "datetime": "30.10.2025 09:21:00",
     "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
     "status": "active"
   },
-  {
-    "id": 2,
-    "title": "Барномаи Шохнома",
-    "description": "Барномаи навро аз Google Play боргири кунед. <br> Скачайте в Google Play<br> Download on Google Play",
-    "datetime": "30.10.2025 09:21:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png",
-    "status": "active"
-  },
-  {
-    "id": 3,
-    "title": "Новая функция: Избранное",
-    "description": "Мы добавили новую функцию - <i>«Избранное»</i>!<br><br>Теперь вы можете сохранять понравившиеся статьи и материалы для быстрого доступа позже.",
-    "datetime": "2024-12-22 14:00:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
-    "status": "inactive"
-  }
 ]
