@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Барономаи Илм ва техника",
-    "description": "Аз Google Play боргири кунед <br> Скачайте в Google Play<br> Download on Google Play",
-    "datetime": "30.10.2025 09:21:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo1.png",
+    "title": "6 -уми ноябр Конститутсияи Ҷумҳурии Тоҷикистон",
+    "description": "Рӯзи Сарқонуни Ҷумҳурии Тоҷикистон муборак бошад!",
+    "datetime": "06.101.2025 08:21:00",
+    "image": "https://news.tildacdn.com/37b593ca89579adef368203d061673b8/-/resize/x900/",
     "status": "active"
   },
   {
@@ -13,14 +13,6 @@
     "description": "Аз Google Play боргири кунед <br> Скачайте в Google Play<br> Download on Google Play",
     "datetime": "30.10.2025 09:21:00",
     "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo2.png",
-    "status": "active"
-  },
-  {
-    "id": 3,
-    "title": "Барономаи Шохнома",
-    "description": "Аз Google Play боргири кунед <br> Скачайте в Google Play<br> Download on Google Play",
-    "datetime": "30.10.2025 09:21:00",
-    "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/refs/heads/main/logo3.png",
     "status": "active"
   }
 ]
