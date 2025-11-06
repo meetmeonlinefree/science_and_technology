@@ -1,13 +1,15 @@
-[{
+[
+  {
     "id": 1,
     "title": "Озмуни расми беҳтарин дар мавзуи «ОЯНДАИ САБЗ»",
-    "description": "<p><strong>Маҷаллаи «Илм ва техника»</strong> барои хонандагони синфҳои 5–11 озмуни расмкаширо роҷеъ ба иқлим ва экология эълон мекунад!</p><p>Агар мехоҳӣ бо қалами худ тасвири як ҷаҳони тозаву сабзро нишон диҳӣ, пас, ҳоло фурсати он расидааст!</p><h3>🌿 Шартҳои иштирок:</h3><ul><li>Расми худро дар мавзӯи <strong>«Ояндаи сабз»</strong> кашида, онро аккосӣ ё скан карда ба почтаи <a href="mailto:ilmvatekhnika@mail.ru">ilmvatekhnika@mail.ru</a> фиристед.</li><li>Дар паёми худ маълумотҳои зеринро ҳамроҳ намоед: <em>ному насаб, синф, мактаб ва маҳалли зист</em>.</li><li>Расмҳо то <strong>25 декабри соли 2025</strong> тариқи почта қабул карда мешаванд.</li><li>То <strong>1-уми январи соли 2026</strong> ҳамаи расмҳо дар саҳифаҳои иҷтимоии маҷалла барои овоздиҳӣ нашр карда мешаванд.</li><li>Ғолибон аз рӯйи <strong>овози хонандагон</strong> ва <strong>интихоби ҳакамон</strong> муайян мегарданд.</li></ul><p><strong>🎁 ҒОЛИБОНРО</strong> тӯҳфаҳои хотиравӣ ва нашри расмашон дар маҷалла интизор аст!</p><p style="font-size: 1.1em; color: #2e7d32;"><strong>Ояндаи сабз — бо дастони ту офарида мешавад!</strong></p><p><em>Бо Маҷаллаи «Илм ва техника» бимонед!</em></p>",
+    "description": "<p><strong>Маҷаллаи «Илм ва техника»</strong> барои хонандагони синфҳои 5–11 озмуни расмкаширо роҷеъ ба иқлим ва экология эълон мекунад!</p><p>Агар мехоҳӣ бо қалами худ тасвири як ҷаҳони тозаву сабзро нишон диҳӣ, пас, ҳоло фурсати он расидааст!</p><h3>🌿 Шартҳои иштирок:</h3><ul><li>Расми худро дар мавзӯи <strong>«Ояндаи сабз»</strong> кашида, онро аккосӣ ё скан карда ба почтаи <a href=\"mailto:ilmvatekhnika@mail.ru\">ilmvatekhnika@mail.ru</a> фиристед.</li><li>Дар паёми худ маълумотҳои зеринро ҳамроҳ намоед: <em>ному насаб, синф, мактаб ва маҳалли зист</em>.</li><li>Расмҳо то <strong>25 декабри соли 2025</strong> тариқи почта қабул карда мешаванд.</li><li>То <strong>1-уми январи соли 2026</strong> ҳамаи расмҳо дар саҳифаҳои иҷтимоии маҷалла барои овоздиҳӣ нашр карда мешаванд.</li><li>Ғолибон аз рӯйи <strong>овози хонандагон</strong> ва <strong>интихоби ҳакамон</strong> муайян мегарданд.</li></ul><p><strong>🎁 ҒОЛИБОНРО</strong> тӯҳфаҳои хотиравӣ ва нашри расмашон дар маҷалла интизор аст!</p><p style=\"font-size: 1.1em; color: #2e7d32;\"><strong>Ояндаи сабз — бо дастони ту офарида мешавад!</strong></p><p><em>Бо Маҷаллаи «Илм ва техника» бимонед!</em></p>",
     "image": "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/exams_green_future.jpg",
     "author": "Фарзона Норбадалова",
-    "datetime": "06.11.2025",
+    "datetime": "2025-11-06",
     "images": [
-        "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/exams_green_future.jpg",
-        "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/exams_green_future.jpg"
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/exams_green_future.jpg",
+      "https://raw.githubusercontent.com/meetmeonlinefree/science_and_technology/main/exams_green_future.jpg"
     ],
     "status": 1
-}]
+  }
+]
